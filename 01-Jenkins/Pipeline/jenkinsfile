@@ -4,7 +4,7 @@ node
    git 'https://github.com/Hyndavi09/DevOpsPetclinic.git'
   }
 
-def project_terra="04-Terraform/03-Ansible-Deploy"
+def project_terra="Terraform"
 dir(project_terra) {
    stage('Prod Deployment on AWS'){
    sh label: 'terraform', script: '/bin/terraform  init'
