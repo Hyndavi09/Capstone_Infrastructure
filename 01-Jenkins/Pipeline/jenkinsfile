@@ -1,10 +1,10 @@
 node
 {
   stage('Git-Checkout') {
-   git 'https://github.com/Hyndavi09/DevOpsPetclinic.git'
+   git 'https://github.com/Hyndavi09/Infrastructure.git'
   }
 
-def project_terra="Terraform"
+def project_terra="Terraform/"
 dir(project_terra) {
    stage('Prod Deployment on AWS'){
    sh label: 'terraform', script: '/bin/terraform  init'
