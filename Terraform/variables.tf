@@ -6,10 +6,10 @@ variable "pvt_key" {
   default = "/root/.ssh/hyndavi.pem"
 }
 
-variable "us-east-zones" {
-  default = ["us-east-1"]
+variable "us-west-zones" {
+  default = ["us-west-2a"]
 }
 
 variable "sg-id" {
-  default = "sg-02d03b519d6f4b569"
+  default = "sg-017c3d15b47617de8"
 }
