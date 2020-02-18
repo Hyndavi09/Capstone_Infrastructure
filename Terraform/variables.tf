@@ -7,7 +7,7 @@ variable "pvt_key" {
 }
 
 variable "us-west-zones" {
-  default = ["us-west-2a"]
+  default = ["us-west-2"]
 }
 
 variable "sg-id" {
