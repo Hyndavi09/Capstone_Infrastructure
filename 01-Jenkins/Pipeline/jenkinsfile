@@ -1,7 +1,7 @@
 node
 {
   stage('Git-Checkout') {
-   git 'https://github.com/Hyndavi09/Infrastructure.git'
+   git 'https://github.com/Hyndavi09/Capstone_Infrastructure.git'
   }
 
 def project_terra="Terraform/"
