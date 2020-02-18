@@ -1,5 +1,5 @@
 variable "key_name" {
-  default = "hyndavi"
+  default = "hyndu"
 }
 
 variable "pvt_key" {
